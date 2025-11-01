@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Card from "./Card"; // child component
+import Card from "./Card";
 
 function PostCard() {
   const [posts, setPosts] = useState([]);
